@@ -14,7 +14,7 @@ meteor add meteoric:ionic-sass
 Then in your app's `.scss` file:
 
 ```
-@import '.meteor/local/build/programs/server/assets/packages/meteoric_ionic-sass/ionic';
+@import '{hashwin:ionic-sass}/_ionic';
 ```
 
 **NOTE:**
