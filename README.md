@@ -8,13 +8,13 @@
 
 ```
 meteor add fourseven:scss
-meteor add hashwin:ionic-sass
+meteor add errorprotoype:ionic-sass
 ```
 
 Then in your app's `.scss` file:
 
 ```
-@import '{hashwin:ionic-sass}/_ionic';
+@import '{errorprotoype:ionic-sass}/_ionic';
 ```
 
 **NOTE:**
@@ -38,16 +38,16 @@ $positive: #DE4F4F;
 @import 'app-variables';
 
 // Then import ionic after. Ionic will use your variables instead of it's own.
-@import '.meteor/local/build/programs/server/assets/packages/hashwin_ionic-sass/ionic';
+@import '.meteor/local/build/programs/server/assets/packages/errorprotoype_ionic-sass/ionic';
 ```
 
 ## Icons
 
-You may also want to install our [Ionicons](https://github.com/hashwin/ionicons-sass) package.
+You may also want to install our [Ionicons](https://github.com/riatzukiza/ionicons-sass) package.
 
 ## Docs
 
 See the official [Ionic CSS Docs](http://ionicframework.com/docs/components/) site for usage instructions.
 
 ## License
-[MIT License](https://github.com/hashwin/ionic-sass/blob/master/LICENSE)
+[MIT License](https://github.com/riatzukiza/ionic-sass/blob/master/LICENSE)
